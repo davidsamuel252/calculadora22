@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculodejurossimples</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculo de juros simples</title>
 </head>
-<body>
-    <h3>calculo de juros simples</h3>
-    j = <input type="number" name="numero_1" placeholder="j"> C . taxa(I).
-    <input type="number" name="numero_1" placeholder="I">   porcentagem(I)
-    <input type="number" name="numero_1" placeholder="T"> tempo(T).
+<body >
+<h1>Calcular juro sinples</h1>
+<img src="img/images.jpeg" alt="" >
 
+<label for="C">Capital</label>
+<input type="number" id="primeiro_numero" placeholder="C">
 
+<label for="I">Taxa </label>
+<input type="number" id="segundo_numero" placeholder="%">
 
+<label for="T">Tempo</label>
+<input type="number" id="terceiro_numero" placeholder="Em meses">
 
+<button type="button" onclick="calculo()">Calcular juros</button>
+<br>
+<n id="resultado"></n>
+<n id="quarto_numero"></n>
+
+<script src="script.js"></script>
 </body>
 </html>
